@@ -1,0 +1,202 @@
+@media (min-width: $mobile) {
+    #intro--serv {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+        font-size: 15px;
+        color: $colorTexto;
+        .titulo {
+            font-size: 25px;
+        }
+        p {
+            color: $colorTexto2;
+            font-size: 15px;
+        }
+    }
+    
+    #alojamiento--cabana {
+        .cabanas {
+            text-align: center;
+            color: $colorTexto;
+            .titulo {
+                font-size: 20px;
+            }
+            p {
+                color: $colorFondo;
+                font-size: 15px
+            }
+        }
+        .foto--cabana {
+            @include foto-mobile;
+            img {
+                width: 100%;
+            }  
+        }
+        .descripcion {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            text-align: center;
+            margin-left: 15px;
+            margin-right: 15px;
+            p {
+                font-size: 15px;
+                color: $colorTexto;
+            }
+            
+        }
+    }
+    
+    #alojamiento--casa {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        .casaCampo {
+            .titulo {
+                font-size: 20px;
+            }
+            text-align: center;
+            color: $colorTexto;
+            margin-bottom: 50px;
+            p {
+                color: $colorFondo;
+                font-size: 15px;
+            }
+
+        }
+        .foto--casa {
+            display: flex;
+            margin: 15px;
+            min-width: 360px;
+            img {
+                width: 100%;
+            }
+
+        }
+        .foto--exterior {
+            @include foto-mobile;
+            img {
+                width: 100%;
+            }  
+        }
+        .descripcion {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-left: 15px;
+            margin-right: 15px;
+            p {
+                font-size: 15px;
+                color: $colorTexto;
+            }
+            
+        }
+    }
+    
+}
+@media (min-width: $tablet) {
+    #intro--serv {
+        text-align: center;
+        margin: 100px 25px;
+        color: $colorTexto;
+        .titulo {
+            font-size: 30px;
+        }
+        p {
+            color: $colorTexto2;
+            font-size: 18px;
+        }
+    }
+    
+    #alojamiento--cabana {
+        .cabanas {
+            text-align: center;
+            color: $colorTexto;
+            .titulo {
+                font-size: 30px;
+            }
+            p {
+                color: $colorTexto2;
+                font-size: 18px;
+            }
+        }
+        .foto--cabana {
+            @include foto-tablet; 
+            div {
+                width: 100%;
+                img {
+                    width: 100%;
+                }  
+
+            }
+        }
+        .descripcion {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            text-align: center;
+            margin-left: 15px;
+            margin-right: 15px;
+            p {
+                font-size: 18px;
+                color: $colorTexto;
+            }
+        }
+    }
+    
+    #alojamiento--casa {
+        .casaCampo {
+            text-align: center;
+            color: $colorTexto;
+            margin-top: 50px;
+            .titulo {
+                font-size: 30px;
+            }
+            p {
+                color: $colorTexto2;
+                font-size: 18px;
+            }
+
+        }
+        .foto--casa {
+            @include foto-tablet;
+            div {
+                margin-top: 20px;
+                max-width: 900px;
+                img {
+                    width: 100%;
+                }
+            }
+           
+            
+        }
+        .foto--exterior { 
+            @include foto-tablet;
+            div {
+                max-width: 450px;
+                margin-bottom: 20px;
+                img {
+                    width: 100%;
+                }  
+            }
+            
+        }
+        .descripcion {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            text-align: center;
+            margin-left: 15px;
+            margin-right: 15px;
+            p {
+                font-size: 18px;
+                color: $colorTexto;
+            }
+              
+        }
+    }
+
+}

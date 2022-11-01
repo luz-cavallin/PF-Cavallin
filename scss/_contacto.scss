@@ -1,0 +1,27 @@
+@media (min-width: $mobile) {
+    #informacion {
+        margin: 50px 25px;
+        .titulo {
+            color:$colorTexto;
+            font-size: 25px;
+        }
+        p {
+            color: $colorTexto;
+            font-size: 15px;
+        }
+    }
+}
+
+@media (min-width: $tablet) {
+    #informacion { 
+        margin: 50px 25px;
+        .titulo {
+            color:$colorTexto;
+            font-size: 30px;
+        }
+        p {
+            color: $colorTexto;
+            font-size: 18px;
+        }
+    }
+}

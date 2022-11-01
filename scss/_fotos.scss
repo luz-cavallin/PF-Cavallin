@@ -1,0 +1,61 @@
+@media (min-width: $mobile) {
+    #cabanasBoutique {
+        .titulo-cabana {
+            text-align: center;
+            color: $colorTexto; 
+            margin-top: 50px;  
+            margin-bottom: 50px;
+            .titulo { 
+                font-size: 25px;
+            }
+
+        }
+           
+    }
+    #casaChalet {
+        .titulo-casa {
+            text-align: center;
+            color: $colorTexto; 
+            margin-top: 50px;  
+            margin-bottom: 50px;
+            .titulo {
+                font-size: 25px;  
+            }
+
+        }
+        
+             
+    }
+}
+
+
+@media (min-width: $tablet) {
+    #cabanasBoutique {
+        .titulo-cabana {
+            text-align: center;
+            color: $colorTexto;
+            margin-top: 60px;  
+            margin-bottom: 60px;
+            .titulo {
+                font-size: 30px;
+                
+            }
+
+        }
+        
+    }
+    #casaChalet {
+        .titulo-casa {
+            text-align: center;
+            color: $colorTexto; 
+            margin-top: 60px;  
+            margin-bottom: 60px;
+            .titulo {
+                font-size: 30px;
+                
+            }
+
+        }
+        
+    }
+}

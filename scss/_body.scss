@@ -1,0 +1,13 @@
+@media (min-width: $mobile) {
+    body {
+        background: $colorSecundario; 
+        
+    }
+}
+
+@media (min-width: $tablet) {
+    body {
+        background: $colorFondo;
+    } 
+}
+
